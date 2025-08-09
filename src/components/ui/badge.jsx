@@ -1,0 +1,1 @@
+export function Badge({variant='default',className='',children}){const styles=variant==='secondary'?'bg-gray-100 border text-slate-800':'bg-slate-900 text-white';return <span className={['inline-flex items-center px-2.5 py-1 rounded-md text-xs',styles,className].join(' ')}>{children}</span>}
